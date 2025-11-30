@@ -9,6 +9,7 @@
 
 #define NUM 5
 
+
 //struct fot exam
 typedef struct{             
     int student_number;   
