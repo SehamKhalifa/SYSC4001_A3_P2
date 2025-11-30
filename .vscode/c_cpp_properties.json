@@ -1,22 +1,20 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "WSL-Ubuntu",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/c++/13",
+                "/usr/include/c++/13/x86_64-linux-gnu"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/path/to/your/compiler.exe",
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
 }
-
