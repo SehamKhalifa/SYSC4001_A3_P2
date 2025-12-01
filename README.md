@@ -1,4 +1,6 @@
 SYSC4001_A3_P2 README:
+
+
 To compile the program run this in the terminal:
 
 Step 1: gcc -o marking_program marking_101295726_101300400.c -Wall -pthread -lrt
@@ -15,6 +17,9 @@ Run with 4 tas using : ./src/marking_program 4  and as a result Program should r
 Run with 1 ta using : ./src/marking_program 1  and as a result Program will fail and require you to have number of tas ≥ 2
 
 
+
 Contributers:
+
 Seham Khalifa 101295726
+
 Pardis Ehsani 101300400
