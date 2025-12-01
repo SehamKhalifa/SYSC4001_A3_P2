@@ -13,3 +13,8 @@ Run with 2 tas using : ./src/marking_program 2  and as a result Program should r
 Run with 4 tas using : ./src/marking_program 4  and as a result Program should run as expected
 
 Run with 1 ta using : ./src/marking_program 1  and as a result Program will fail and require you to have number of tas ≥ 2
+
+
+Contributers:
+Seham Khalifa 101295726
+Pardis Ehsani 101300400
